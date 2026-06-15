@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Start Ubuntu test
-        run: echo "Testing on Ubuntu"
+        run: echo "Testing on Ubuntu..."
 
       - name: Show Ubuntu system details
         run: uname -a
@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Start Windows test
-        run: echo "Testing on Windows"
+        run: echo "Testing on Windows..."
 
       - name: Show Windows system details
         run: systeminfo
